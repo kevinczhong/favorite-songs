@@ -17,3 +17,13 @@ Content-Type: application/json
 }
 
 #Need to add dynamic support
+
+###
+
+PATCH http://localhost:3000/songs/4
+Content-Type: application/json
+
+{
+  "title": "sample_3",
+  "album": "sample_3"
+}
