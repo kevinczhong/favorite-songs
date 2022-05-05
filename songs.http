@@ -7,5 +7,13 @@ GET http://localhost:3000/songs/1
 
 ###
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "title": "sample_2",
+  "album": "sample_2",
+  "artist": "sample_2",
+  "year": "sample_2"
+}
 
 #Need to add dynamic support

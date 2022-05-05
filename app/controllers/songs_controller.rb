@@ -14,7 +14,8 @@ class SongsController < ApplicationController
       title: params["title"],
       album: params["album"],
       artist: params["artist"],
-      year: params["year"]
+      year: params["year"],
     )
-    
+    render json: { song: song }
+  end
 end
